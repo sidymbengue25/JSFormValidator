@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <title>TP Formulaire 2 : Exo pdf</title>
+</head>
+<body>
+  <div class="main-content col-md-offset-2 col-md-4" style="margin-bottom: 250px">
+    <h1><mark><u>Formulaire dinscription</u></mark></h1>
+    <form id="formTest" method="GET" action="">
+      <div class="form-group">
+        <label for='civilite' class="field-label">Civilté</label>
+        <select id="civilite" name="civilite" class="form-control field-input" style="width: 150px">
+          <option disabled>Choisir</option>
+          <option>Mr</option>
+          <option>Mme</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for='nom' class="field-label">Nom</label>
+        <input id="nom" type="text" name="nom" class="myRequiredInput form-control field-input" style="width: 220px">
+      </div>
+      <div class="form-group">
+        <label for='prenom' class="field-label">Pénom</label>
+        <input id="prenom" type="text" name="prenom" class="myRequiredInput form-control field-input" style="width: 220px">
+      </div>
+      <div class="form-group">
+        <label for='adresse' class="field-label">Adresse</label>
+        <textarea id="adresse" type="text" name="adresse" class="myRequiredInput form-control field-input" rows="5"></textarea>
+      </div>
+      <div class="form-group">
+        <label for='ville' class="field-label">Ville</label>
+        <input id="ville" type="text" name="ville" class="myRequiredInput form-control field-input" style="width: 220px">
+      </div>
+      <div class="form-group">
+        <label for='postal' class="field-label">Code Postal</label>
+        <input id="postal" type="text" name="postal" class="myRequiredInput form-control field-input" style="width: 220px">
+      </div>
+      <div class="checkbox">
+        <label for='newsletter' class="field-label">Je Souhaite recevoir la newslettre</label>
+        <input id="newsletter" type="checkbox" name="newsletter" style="width: 10px">
+      </div>
+      <div class="form-group">
+        <label for='couriel' class="field-label">Courriel
+         <input id="couriel" type="email" name="couriel" style="width: 220px" class="form-control field-input">
+        </label>
+      </div>
+      <button class="pull-right btn btn-info" id="submit" draggable="true">Envoyer</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

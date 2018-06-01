@@ -1,0 +1,5 @@
+1) tous les champs input de type textes et le textarea (adresse) doivent etre remplis sinon message derreur
+2)Si il ya une erreur ajouter la classe has-error au parent de l'element
+3)Si newsletter cocher  email doit avoir avoir du contenu(mettre le focus)
+4)Si email a du contenu newsletter automatiquement coché
+5)Si aucune civilité n'a été choisi fixe Monsieur
